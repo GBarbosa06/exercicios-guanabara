@@ -52,8 +52,3 @@ section#redes img:hover{
     border: 2px solid white;
     transform: translateY(-8px);
 }
-
-section#redes{
-    text-align: center;
-    transform: translate(-190px, 230px);
-}
