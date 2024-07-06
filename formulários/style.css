@@ -7,3 +7,7 @@
 form, h1{
     text-align: center;
 }
+
+form div{
+    margin: 30px;
+}
