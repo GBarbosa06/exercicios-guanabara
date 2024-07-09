@@ -18,11 +18,28 @@
                 <label for="tel">Seu telefone</label>
                 <input type="tel" name="tel" id="tel" required autocomplete="tel">
             </p>
-            <p>
-                <input type="submit" value="Enviar">
-                <input type="reset" value="Limpar">
+            <p>Sexo <br>
+                <input type="radio" name="sex" id="masc" required value="M">
+                <label for="masc">Masculino</label>
+                <br>
+                <input type="radio" name="sex" id="fem" value="F">
+                <label for="fem">feminino</label>
             </p>
         </fieldset>
+        <fieldset>
+            <legend>Esportes</legend>
+            <p>
+                <label for="fut"><input type="checkbox" name="gut" id="fut">Futebol</label>
+                <label for="basq"><input type="checkbox" name="basq" id="basq">Basquete</label>
+                <label for="vol"><input type="checkbox" name="vol" id="vol">Vôlei</label>
+
+
+            </p>
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
     </form>
 </body>
 </html>
