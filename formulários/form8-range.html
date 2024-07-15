@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Output para o range</title>
+    <style>
+        output{
+            padding-left: 66px;
+            color: rgb(202, 144, 144);
+        }
+        body{
+            background-image: ;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Cadastro</h1>
+    <form action="cadastro.php" method="post">
+        <div>
+            <output id="valor">xxxxxxxxxxx</output> <br>
+            <label for="cpf">Seu CPF</label>
+            <input type="range" name="cpf" id="cpf" min="0" max="99999999999" minlength="11" required oninput="valor.innerHTML = Number(cpf.value)" style="width: 90%;">
+        </div>
+        <div>
+            <label for="sen">Sua senha:</label>
+            <input type="password" name="sen" id="sen" required>
+        </div>
+        <div>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Reiniciar">
+        </div>
+    </form>
+</body>
+</html>
