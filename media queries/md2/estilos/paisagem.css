@@ -1,3 +1,10 @@
 @charset "utf-8";
 
 /* para todos as telas deitadas*/
+
+
+
+body{
+    background-image: url(../images/cev-landscape.jpg);
+    background-position: left bottom;
+}
