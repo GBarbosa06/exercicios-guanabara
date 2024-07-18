@@ -37,8 +37,9 @@
     img#tv { display: block;}
 }
 @media print{
-    body{
-        background-image: url(../imagens/back-print.jpg);
+    main{
+        font-family: 'Courier New', Courier, monospace;
+        border: solid black 1px;
     }
     img#phone { display: none;}
     img#tablet { display: none;}
