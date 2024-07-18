@@ -16,4 +16,9 @@
     header li{
         display: inline;
     }
+    main{
+        max-width: 768px;
+        margin: auto;
+        margin-top: 30px;
+    }
 }
