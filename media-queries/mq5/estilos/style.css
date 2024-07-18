@@ -13,6 +13,24 @@ header h1{
     text-align: center;
     padding: 10px;
 }
+#burg{
+    background-color: rgb(53, 53, 53);
+    display: block;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    transition: all .3s;
+}
+#burg:hover{
+    background-color: rgb(192, 192, 192);
+    color: rgb(70, 70, 70);
+}
+
+menu{
+    display: none;
+}
+
 header ul{
     text-align: center;
     text-transform: uppercase;
@@ -24,7 +42,7 @@ header a{
 header li{ 
     list-style: none;
     padding: 10px;
-    background-color: rgb(56, 56, 56);
+    background-color: rgb(68, 68, 68);
 }
 header li:hover{
     background-color: rgb(126, 126, 126);
@@ -44,10 +62,3 @@ main p{
     margin-bottom: 20px;
 }
 
-.material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 24
-}
