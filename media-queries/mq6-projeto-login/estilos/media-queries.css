@@ -8,6 +8,7 @@
     section#login{
         width: 80vw;
         max-width: 992px;
+        height: 300px;
     }
     div#imagem{
         float: left;
@@ -21,11 +22,4 @@
     div#formulario > p{
         font-size: 1em;
     }
-}
-
-@media screen and (min-width:1200px) {
-    input[type=submit]{
-        margin: 15px 0px;
-    }
-    
 }
