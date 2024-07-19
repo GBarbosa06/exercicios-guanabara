@@ -23,3 +23,9 @@
     }
 }
 
+@media screen and (min-width:1200px) {
+    input[type=submit]{
+        margin: 15px 0px;
+    }
+    
+}

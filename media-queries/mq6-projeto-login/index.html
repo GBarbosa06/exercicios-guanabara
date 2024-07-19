@@ -20,24 +20,24 @@
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a). Faça login para acessar sua conta e fazer as configurações necessárias</p>
                 <form action="login.php" method="post" autocomplete="on">
-                    <div>
+                    <div class="campo">
                         <span class="material-symbols-outlined">
-                            login
+                            person
                             </span>
                            
                         <input type="email" name="email" id="email" placeholder="seu email" required autocomplete="email" maxlength="35">
-                        <label for="email">Login:</label>
+                        <label for="email">Login</label>
                     </div>
-                    <div>
+                    <div class="campo">
                         <span class="material-symbols-outlined">
                             password
                             </span>
                         <input type="password" name="senha" id="senha" placeholder="sua senha" required autocomplete="current-password" minlength="6" maxlength="25">
                         <label for="senha">Senha</label>
                     </div>
-                    <div>
+                    <div id="botoes">
                         <input type="submit" value="Enviar">
-                        <a href="esqueci.html">Esqueci minha senha<span class="material-symbols-outlined">mail</span></a>
+                        <a href="esqueci.html" class="botao">Esqueci minha senha<span class="material-symbols-outlined">mail</span></a>
                     </div>
                 </form>
             </div>
