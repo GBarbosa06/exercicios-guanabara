@@ -79,7 +79,7 @@ input{
     border-radius: 10px;
     border: none;
     padding-left: 3px;
-    transform: translate(4px, 2px);
+    transform: translate(4px, 1px);
     
 }
 input[type=submit]{
