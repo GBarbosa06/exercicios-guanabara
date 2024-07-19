@@ -26,7 +26,8 @@ section#login{
     background-color: white;
     width: 80vw;
     max-width: 350px;
-    height: 500px;
+    height: 80vh;
+    max-height: 550px;
     border-radius: 30px;
     position: absolute;
     top: 50%;
