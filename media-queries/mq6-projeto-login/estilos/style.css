@@ -25,23 +25,26 @@ main{
 section#login{
     background-color: white;
     width: 80vw;
+    max-width: 350px;
     height: 500px;
-    border: solid black 1px;
     border-radius: 30px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     overflow: hidden;
+
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 
-#imagem{
+div#imagem{
     background: url(../imagens/imagem-predio.jpg) center bottom no-repeat;
     background-size: cover;
     height: 200px;
-    display: block;
+
 }
-#formulario{
-    display: block;
+div#formulario{
+
     padding: 10px;
 }
